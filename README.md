@@ -5,3 +5,4 @@
 * Cleaner naming of stuff
 * Cleaner code using [standard](https://github.com/feross/standard) code style
 * Better index file handling
+* SASS and [CSS modules](https://github.com/css-modules/css-modules) support

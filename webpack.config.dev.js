@@ -21,6 +21,10 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel',
       include: path.join(__dirname, 'src')
+    }, {
+      test: /\.scss$/,
+      loader: 'style!css?modules&sourceMap!sass?sourceMap',
+      include: path.join(__dirname, 'src')
     }]
   }
 }
