@@ -6,3 +6,4 @@
 * Cleaner code using [standard](https://github.com/feross/standard) code style
 * Better index file handling
 * SASS and [CSS modules](https://github.com/css-modules/css-modules) support
+* Basic [shallow render](https://facebook.github.io/react/docs/test-utils.html#shallow-rendering) testing
