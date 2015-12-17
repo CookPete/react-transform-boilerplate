@@ -25,6 +25,10 @@ module.exports = {
       test: /\.scss$/,
       loader: 'style!css?modules&sourceMap!sass?sourceMap',
       include: path.join(__dirname, 'src')
+    }, {
+      test: /normalize.css$/,
+      loader: 'style?insertAt=top!css',
+      include: path.join(__dirname, 'node_modules', 'normalize.css')
     }]
   }
 }

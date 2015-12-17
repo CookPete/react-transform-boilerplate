@@ -33,6 +33,10 @@ module.exports = {
       test: /\.scss$/,
       loader: ExtractTextPlugin.extract('style', 'css?modules&sourceMap!sass?sourceMap'),
       include: path.join(__dirname, 'src')
+    }, {
+      test: /normalize.css$/,
+      loader: ExtractTextPlugin.extract('style', 'css'),
+      include: path.join(__dirname, 'node_modules', 'normalize.css')
     }]
   }
 }
