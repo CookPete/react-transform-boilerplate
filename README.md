@@ -1,5 +1,9 @@
 # React Transform Boilerplate
 
+[![Build Status](https://travis-ci.org/CookPete/instagram-insights.svg)](https://travis-ci.org/CookPete/instagram-insights)
+[![Dependency Status](https://david-dm.org/CookPete/instagram-insights.svg)](https://david-dm.org/CookPete/instagram-insights)
+[![devDependency Status](https://david-dm.org/CookPete/instagram-insights/dev-status.svg)](https://david-dm.org/CookPete/instagram-insights#info=devDependencies)
+
 [CookPete](http://github.com/CookPete)’s beefed up version of [react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate), with:
 
 * Cleaner naming of stuff
