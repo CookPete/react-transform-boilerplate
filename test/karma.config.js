@@ -3,9 +3,9 @@ webpackConfig.devtool = 'inline-source-map'
 
 module.exports = function (config) {
   config.set({
-    browsers: [ process.env.CONTINUOUS_INTEGRATION ? 'Firefox' : 'Chrome' ],
+    browsers: process.env.CONTINUOUS_INTEGRATION ? [ 'Firefox' ] : [ 'Chrome', 'PhantomJS' ],
     singleRun: true,
-    frameworks: [ 'mocha', 'chai' ],
+    frameworks: [ 'mocha', 'chai', 'phantomjs-shim' ],
     files: [
       'karma.webpack.js'
     ],
