@@ -13,5 +13,5 @@
 * SASS and [CSS modules](https://github.com/css-modules/css-modules) support
   * `npm run lint:css`
   * Requires `scss-lint` gem to be installed: `gem install scss-lint`
-* Basic [shallow render](https://facebook.github.io/react/docs/test-utils.html#shallow-rendering) testing
+* Basic testing setup with [shallow rendering](https://facebook.github.io/react/docs/test-utils.html#shallow-rendering) and [karma](http://karma-runner.github.io)
   * `npm run test`

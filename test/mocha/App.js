@@ -3,7 +3,7 @@ import { describe, it, beforeEach } from 'mocha'
 import { expect } from 'chai'
 import { createRenderer } from 'react-addons-test-utils'
 
-import App from '../src/components/App'
+import App from '../../src/components/App'
 
 describe('App', () => {
   let shallowRenderer
