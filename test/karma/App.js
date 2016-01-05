@@ -1,13 +1,15 @@
 import React from 'react'
-import { renderIntoDocument } from 'react-addons-test-utils'
+import { render } from 'react-dom'
 
 import App from '../../src/components/App'
 
 const { describe, it, expect } = window
+const div = document.createElement('div')
+document.body.appendChild(div)
 
 describe('App', () => {
-  it('renders correctly', () => {
-    const result = renderIntoDocument(<App />)
-    expect(result).to.exist
+  it('renders correctly', function(done) {
+    this.timeout(10000)
+    render(<App callback={done} />, div)
   })
 })
